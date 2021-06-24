@@ -15,10 +15,6 @@ def run():
         print()
         print("!!!!!!Felicidades!!!!!!")
         print("       APROBADO")
-    else:
-        print()
-        print("!!!!!!Ho no, esfuerzate mas!!!!!!")
-        print("          REPROBADO")
     print()
     print("_______________________________________")
     input("enter para salir")
