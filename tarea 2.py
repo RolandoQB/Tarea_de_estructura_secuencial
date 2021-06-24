@@ -11,7 +11,7 @@ def run():
     CP=TC-D
     print()
     print("Su cantidad a pagar es: ")
-    print(CP)
+    print("$",CP)
     print("_______________________________________")
     input("enter para salir")
 
