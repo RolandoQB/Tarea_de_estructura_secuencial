@@ -11,12 +11,12 @@ El Flujograma que representa a dicho ejemplo es el siguiente:"""
 
 def run():
     pi=3.1416
-    Radio =int(input("Ingrese el Radio del circulo : "))
+    R =int(input("Ingrese el Radio del circulo : "))
     print("_______________________________________")
-    cal =Radio*Radio
-    Superficie=cal*pi
+    cal =R*R
+    S=cal*pi
     print("La superficie del circulo es: ")
-    print(Superficie)
+    print(S)
     print("_______________________________________")
 
     input("enter para salir")
