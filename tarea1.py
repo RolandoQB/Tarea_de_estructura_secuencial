@@ -10,13 +10,13 @@ superficie de un círculo para un radio cualquiera.
 El Flujograma que representa a dicho ejemplo es el siguiente:"""
 
 def run():
-    # escribir el codigo
     pi=3.1416
-    superficie = int(input("Ingrese el diametro del circulo : "))
+    Radio =int(input("Ingrese el Radio del circulo : "))
     print("_______________________________________")
-    area = pi * superficie/2*100
+    cal =Radio*Radio
+    Superficie=cal*pi
     print("La superficie del circulo es: ")
-    print(area)
+    print(Superficie)
     print("_______________________________________")
 
     input("enter para salir")
