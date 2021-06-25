@@ -9,20 +9,23 @@
  escriba “aprobado” si su calificación es mayor o igual que 7 
  y “Reprobado” en caso contrario."""
 
-def run():
-    print("_______________________________________")
-    cal=float(input("Ingrese su calificacion:"))
-    if cal >= 7 :
+class Tarea:
+    def __init__(self):
+        pass
+    def Calcular(self):
+        print("_______________________________________")
+        cal=float(input("Ingrese su calificacion:"))
+        if cal >= 7 :
+            print()
+            print("!!!!!!Felicidades!!!!!!")
+            print("       APROBADO")
+        else:
+            print()
+            print("!!!!!!Ho no, esfuerzate mas!!!!!!")
+            print("          REPROBADO")
         print()
-        print("!!!!!!Felicidades!!!!!!")
-        print("       APROBADO")
-    else:
-        print()
-        print("!!!!!!Ho no, esfuerzate mas!!!!!!")
-        print("          REPROBADO")
-    print()
-    print("_______________________________________")
-    input("enter para salir")
+        print("_______________________________________")
+        input("enter para salir")
 
-if __name__ == "__main__":
-    run()
+tarea = Tarea()
+tarea.Calcular()
