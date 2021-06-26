@@ -25,3 +25,4 @@ class Tarea2:
 
 tarea = Tarea2()
 tarea.Calcular()
+
