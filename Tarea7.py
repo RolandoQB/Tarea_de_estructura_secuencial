@@ -36,8 +36,9 @@ class Tarea:
             pt= ht*ph
             print()
         print("_______________________________________")    
-        print("Sobretiempo <8: {} Sobretiempo >8: {} El pago total de horas trabajadas es:$ {}".format(ph8,phe,pt))
+        print("Sobretiempo <8 :{} Sobretiempo >8: {} El pago total de horas trabajadas es:$ {}".format(ph8,phe,pt))
         print("_______________________________________")
         input("enter para salir")
 tarea= Tarea()
 tarea.CalcularJornada()
+
