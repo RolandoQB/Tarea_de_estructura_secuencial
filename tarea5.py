@@ -9,7 +9,7 @@
  escriba “aprobado” si su calificación es mayor o igual que 7 
  y “Reprobado” en caso contrario."""
 
-class Tarea:
+class Tarea5:
     def __init__(self):
         pass
     def Calcular(self):
@@ -27,5 +27,5 @@ class Tarea:
         print("_______________________________________")
         input("enter para salir")
 
-tarea = Tarea()
+tarea = Tarea5()
 tarea.Calcular()
