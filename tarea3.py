@@ -30,3 +30,4 @@ class Tarea3:
         input("enter para salir")
 tarea= Tarea3()
 tarea.Calcular()
+
