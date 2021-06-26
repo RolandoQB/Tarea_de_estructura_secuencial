@@ -9,7 +9,7 @@
 Dado el sueldo de un empleado, encontrar el nuevo sueldo si obtiene un aumento 
 del 10% si su sueldo es inferior a $600, en caso contrario no tendrá aumento."""
 
-class Tarea:
+class Tarea6:
     def __init__(self):
         pass
     def Calcular(self):
@@ -26,5 +26,5 @@ class Tarea:
         print("_______________________________________")
         input("enter para salir")
 
-tarea=Tarea()
+tarea=Tarea6()
 tarea.Calcular()
