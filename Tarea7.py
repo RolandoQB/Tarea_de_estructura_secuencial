@@ -13,7 +13,7 @@ horas extras y que éstas se pagan al doble de una hora normal cuando
 no exceden de 8;  si las horas extras exceden de 8 se pagan las primeras 
 8 al  doble de lo que se paga por una hora normal y el resto al triple."""
 
-class Tarea:
+class Tarea7:
     def __init__(self):
         pass
     def CalcularJornada(self):
@@ -39,6 +39,6 @@ class Tarea:
         print("Sobretiempo <8 :{} Sobretiempo >8: {} El pago total de horas trabajadas es:$ {}".format(ph8,phe,pt))
         print("_______________________________________")
         input("enter para salir")
-tarea= Tarea()
+tarea= Tarea7()
 tarea.CalcularJornada()
 
