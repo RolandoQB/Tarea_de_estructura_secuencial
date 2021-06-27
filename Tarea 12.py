@@ -14,13 +14,14 @@ class Tarea12:
         pass
     def Variables(self):
         print("_______________________________________")
-    i=1
-    suma=0
-    x=range(100)
-    for i in x:
-        suma=suma+i*i
-        print("Suma: ",suma)
+        i=1
+        suma=0
+        x=range(100)
+        for i in x:
+            suma=suma+i*i
+            print("Suma: ",suma)
+        print("_______________________________________")
+        input("enter para salir")    
 
 resultado = Tarea12()
 resultado.Variables()
-        
