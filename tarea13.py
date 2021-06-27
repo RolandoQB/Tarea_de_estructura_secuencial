@@ -6,8 +6,8 @@
 
 """Ejercicio 13
 
-Calcular la suma de los cuadrados de los primeros 
-100 enteros y escribir el resultado."""
+Elabore pseudocódigo para el caso en que se desean 
+escribir los números del 1 al 100."""
 
 class Tarea13:
     def __init__ (self):
