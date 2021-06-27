@@ -22,7 +22,6 @@ class Tarea15:
         while num != -1 :
             
             num=int(input("Ingrese un numero: "))
-            
             suma=suma+num
             prod=prod*num
             
