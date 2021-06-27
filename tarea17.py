@@ -6,27 +6,24 @@
 
 """Ejercicio 17
 
-Determinar si un número entero proporcionado por 
-el usuario es primo. Un número primo es un entero 
-que no tiene más divisores que él mismo y la unidad."""
+Aplicar los pasos de la metodología para la solución de un 
+problema para leer un número entero N y calcular el resultado 
+de la siguiente serie:."""
 
 class Tarea17:
     def __init__ (self):
         pass
     def Variables(self):
         print("_______________________________________") 
-        serie= 0
         l=1
         n=int(input("ingrese un numero para la serie: "))
-        band='T'
-        while l>n:
-            if band='T':
-                serie=serie+(1/l)
-                band='F'
-            else:
-                serie=serie-(1/l)
-                band='T'
-            l=l+1
+        print("_______________________________________") 
+        s=5
+        ser=0
+        for a in range(l,n+1):
+            s=s+5
+            ser=ser+s
+        print("la suma de la serie es:", ser)
 
                   
         print("_______________________________________")
