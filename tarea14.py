@@ -28,7 +28,8 @@ class Tarea14:
             prod=prod*num
             resp=input(str("Desea continuar (S/N)"))
             print("_______________________________________")
-        print(suma,prod)
+        print("""Total de la suma es:""",suma,"""
+Total del producto es: """,prod)
           
         print("_______________________________________")
         input("enter para salir") 
